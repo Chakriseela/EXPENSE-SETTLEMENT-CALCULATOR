@@ -1,0 +1,143 @@
+{
+  "users_details": [
+    {
+      "_id": "user_001",
+
+      "profile": {
+        "userName": "Karan",
+
+        "email": "karan@example.com",
+
+        "createdAt": "2026-05-24T20:00:00"
+      },
+
+      "members": [
+        {
+          "_id": "person_001",
+
+          "name": "Rahul",
+
+          "transactionFrequency": 12,
+
+          "frequentSpentOns": [
+            {
+              "item": "Ice Cream",
+              "count": 4
+            },
+            {
+              "item": "Pani Puri",
+              "count": 6
+            },
+            {
+              "item": "Waffle",
+              "count": 2
+            }
+          ],
+
+          "frequentAmounts": [
+            {
+              "amount": 500,
+              "count": 2
+            },
+            {
+              "amount": 200,
+              "count": 5
+            },
+            {
+              "amount": 40,
+              "count": 6
+            }
+          ],
+
+          "amountTheySpentOnMe": 3500,
+
+          "amountISpentOnThem": 1200,
+
+          "netBalance": 2300,
+
+          "balanceStatus": "You Owe"
+        },
+
+        {
+          "_id": "person_002",
+
+          "name": "Arjun",
+
+          "transactionFrequency": 8,
+
+          "frequentSpentOns": [
+            {
+              "item": "Fuel",
+              "count": 5
+            },
+            {
+              "item": "Snacks",
+              "count": 2
+            },
+            {
+              "item": "Movie",
+              "count": 1
+            }
+          ],
+
+          "frequentAmounts": [
+            {
+              "amount": 100,
+              "count": 3
+            },
+            {
+              "amount": 200,
+              "count": 4
+            },
+            {
+              "amount": 500,
+              "count": 1
+            }
+          ],
+
+          "amountTheySpentOnMe": 1000,
+
+          "amountISpentOnThem": 1800,
+
+          "netBalance": -800,
+
+          "balanceStatus": "They Owe"
+        }
+      ],
+
+      "transactions": [
+        {
+          "_id": "txn_001",
+
+          "personId": "person_001",
+
+          "amount": 500,
+
+          "type": "They Paid",
+
+          "category": "Food",
+
+          "spentOn": "Ice Cream",
+
+          "dateTime": "2026-05-24T17:30:00"
+        },
+
+        {
+          "_id": "txn_002",
+
+          "personId": "person_002",
+
+          "amount": 200,
+
+          "type": "I Paid",
+
+          "category": "Travel",
+
+          "spentOn": "Fuel",
+
+          "dateTime": "2026-05-24T19:15:00"
+        }
+      ]
+    }
+  ]
+}
